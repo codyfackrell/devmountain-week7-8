@@ -1,0 +1,17 @@
+button {
+    height: 40px; 
+    width: 150px;
+    font-size: 18px;
+    border: none;
+    background-color: black;
+    color: yellow
+}
+
+button:hover {
+    background-image: linear-gradient(to right, black, yellow);
+    color: white
+}
+
+button:active {
+    transform: scale(0.97, 0.97)
+}
